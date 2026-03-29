@@ -95,13 +95,15 @@ body{overflow:hidden}
   border:1px solid var(--line); background:rgba(255,255,255,.03)
 }
 
-.hero-panel{
-  position:relative; margin:0 22px; border-radius:24px; overflow:hidden; min-height:265px;
-  background:
-    radial-gradient(circle at 70% 25%, rgba(242,219,155,.10), transparent 20%),
-    linear-gradient(180deg, rgba(0,0,0,.06), rgba(0,0,0,.52)),
-    linear-gradient(135deg, #70501d 0%, #191919 25%, #070707 60%, #201406 100%);
-  border:1px solid var(--line);
+.hero-panel{.hero-panel {
+  position: relative;
+  margin: 0 22px;
+  border-radius: 24px;
+  overflow: hidden;
+  min-height: 400px;
+  background: url('card1.jpg') center/cover no-repeat;
+  border: 1px solid rgba(242,219,155,.28);
+}
 }
 .hero-panel::before{
   content:"";
