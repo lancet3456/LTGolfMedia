@@ -96,13 +96,15 @@ body{overflow:hidden}
 }
 
 .hero-panel{.hero-panel {
+.hero-panel {
   position: relative;
   margin: 0 22px;
   border-radius: 24px;
   overflow: hidden;
   min-height: 400px;
-  background: url('David Final Card.jpg') center/cover no-repeat;
+  background: url('card1.jpg') center/cover no-repeat;
   border: 1px solid rgba(242,219,155,.28);
+}
 }
 }
 .hero-panel::before{
