@@ -1,4 +1,11 @@
+body {
+  opacity: 0;
+  animation: fadeIn 0.25s ease forwards;
+}
 
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
 :root{
   --bg:#050505;
   --panel:#0d0d0d;
