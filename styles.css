@@ -272,3 +272,9 @@ body{overflow:hidden}
 .card-bottom {
   position: relative;
 }
+.qr-container{
+  position:absolute;
+  left:80px;
+  bottom:55px;
+  z-index:5;
+}
