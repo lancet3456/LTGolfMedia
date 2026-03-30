@@ -269,3 +269,6 @@ body{overflow:hidden}
   bottom: 80px;
   left: 40px;
 }
+.card-bottom {
+  position: relative;
+}
