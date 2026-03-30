@@ -264,3 +264,8 @@ body{overflow:hidden}
   .player-name{font-size:30px}
   .landing-grid{grid-template-columns:1fr}
 }
+.qr-container {
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
+}
